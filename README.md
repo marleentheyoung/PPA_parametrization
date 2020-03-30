@@ -25,16 +25,18 @@ This will install the correct versions of:
 The following list describes the most important files in the project. Parts of the code originate from an existing research on PPA that is done before, of which the documentation can be found here: 
 https://github.com/WouterVrielink/FWAPPA.
 - **/Code**: contains all the code of this project. 
-  - **/Code/batchrunner.py**: contains the code to run all experiments. (Author: W. Vrielink)
-  - **/Code/benchmark_functions.py**: contains all the benchmark functions. (Author: W. Vrielink)
+  - **/Code/batchrunner.py**: contains the code to run all experiments. (Author: W. L. J. Vrielink)
+  - **/Code/benchmark_functions.py**: contains all the benchmark functions. (Author: W. L. J. Vrielink)
   - **/Code/benchmarks.py**: contains the Benchmark class, the set_benchmark_properties decorator, 
-  the param_shift helper function, and the apply_add function. (Author: W. Vrielink)
-  - **/Code/environment.py**: contains the Environment class.
+  the param_shift helper function, and the apply_add function. (Author: W. L. J. Vrielink)
+  - **/Code/configuration_runner.py**: contains a number of statistical options to calculate over the range of tested parameter configurations.
+  - **/Code/environment.py**: contains the Environment class. (Author: W. L. J. Vrielink)
   - **/Code/heatmap.py**: contains the Heatmap class. Running this file results in a number of heatmap visualizations
   for multiple benchmark test functions.
-  - **/Code/plantpropagation.py**: contains the code of the Plant Propagation algorithm. (Author: W. Vrielink)
+  - **/Code/helpers.py**: contains the code to create a number of parameter configurations for the specified range for the parameters popSize and n_max, as well as necessary helper functions for the heatmap visualizations. 
+  - **/Code/plantpropagation.py**: contains the code of the Plant Propagation algorithm. (Author: W. L. J. Vrielink)
   - **/Code/point.py**: contains a coordinate class that can calculate distances and determine if
-    it was already once evaluated. (Author: W. Vrielink)
+    it was already once evaluated. (Author: W. L. J. Vrielink)
     
 ## Contributing
 
@@ -44,7 +46,3 @@ Please read [CONTRIBUTING.md](https://github.com/WouterVrielink/FWAPPA/blob/mast
 
 * **M. R. H. de Jonge**
 * **W. L. J. Vrielink**
-
-## License
-
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](https://github.com/WouterVrielink/FWAPPA/blob/master/LICENSE) file for details
