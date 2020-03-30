@@ -4,8 +4,6 @@ This repo holds the code for running a number of experiments for the parametriza
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
 Prerequisite libraries, frameworks, and modules can be installed through:
@@ -37,10 +35,6 @@ https://github.com/WouterVrielink/FWAPPA.
   - **/Code/plantpropagation.py**: contains the code of the Plant Propagation algorithm. (Author: W. L. J. Vrielink)
   - **/Code/point.py**: contains a coordinate class that can calculate distances and determine if
     it was already once evaluated. (Author: W. L. J. Vrielink)
-    
-## Contributing
-
-Please read [CONTRIBUTING.md](https://github.com/WouterVrielink/FWAPPA/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
